@@ -19,6 +19,14 @@ public class LearningStrings {
         String result = name.trim();                         // output: Abel
         // String result = name.replace("A", "D");              // output: Dbel
 
-        System.out.println(result);
+        // System.out.println(result);
+
+        int nameLength = name.length() - 1; // output: 3
+        // backward
+        int i = nameLength;
+        while (i >= 0){
+            System.out.println(name.charAt(i));
+            i = i - 1;
+        }
     }
 }
